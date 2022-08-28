@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DynaPuff", cursive;
+  background-color: #c2d2e6;
+}
+
+/* the content will be in the middele of the page*/
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+header > h1 {
+  color: #de3f00;
+  font-weight: 600;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.logo-image {
+  width: 400px;
+  height: 250px;
+  border-radius: 35px;
+}
+
+/* styling the navigation */
+.nav-menu {
+  list-style: none;
+  float: right;
+  padding-top: 50px;
+  padding-right: 100px;
+}
+
+/* space between the lines in the navigation bar */
+.nav-menu > li {
+  line-height: 2;
+}
+
+.nav-menu > li > a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.box-1 {
+  position: absolute;
+  z-index: 10;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.box-2 {
+  margin-top: 100px;
+  background-color: #3291b3;
+  height: 230px;
+  position: relative;
+}
+
+h2 {
+  color: #dea217;
+  text-transform: capitalize;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 100px;
+}
+
+video {
+  width: 500px;
+  height: 300px;
+  border-radius: 35px;
+  margin-left: 100px;
+  box-shadow: 10px 50px 50px #e64b0e;
+}
